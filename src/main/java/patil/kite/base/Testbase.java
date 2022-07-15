@@ -32,5 +32,6 @@ public static WebDriver driver;
 		driver.manage().timeouts().implicitlyWait(Testutil.implicit_wait, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(Testutil.pageload_wait, TimeUnit.SECONDS);
 		driver.get(props.getProperty("url"));
+		System.out.println("Bandal here");
 	}
 }
