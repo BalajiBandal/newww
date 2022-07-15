@@ -33,5 +33,7 @@ public static WebDriver driver;
 		driver.manage().timeouts().pageLoadTimeout(Testutil.pageload_wait, TimeUnit.SECONDS);
 		driver.get(props.getProperty("url"));
 		System.out.println("bbb");
+		System.out.println("hello done");
+		System.out.println("really");
 	}
 }
